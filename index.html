@@ -11,6 +11,18 @@
 
     <h1>Etch-a-Sketch</h1>
 
+    <div class="container-of-containers"></div>
+
+    <input type="color" id="color-picker" value="#000000">
+    <button id="btn-color">Color</button>
+    <button id="btn-eraser">Eraser</button>
+    <button id="btn-clear">Clear</button>
+
+    <div class="slider">
+        <input id="size-slider" type="range" min="16" max="32" oninput="rangeValue.innerText = this.value">
+        <p id="rangeValue">16</p>
+    </div>
+
     <script src="script.js"></script>
 
 </body>
